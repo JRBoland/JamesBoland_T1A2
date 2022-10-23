@@ -22,9 +22,7 @@ h2 {
 }
 
 .header {
-    position: fixed;
-
-    
+    position: fixed;    
 }
 
 #homeicon {
@@ -37,20 +35,15 @@ h2 {
 
 .navigation {
     display: flex;
-    /*border: 1px solid black;*/
     align-items: center;
     justify-content: flex-end;
-    /*gap: 250px;*/
     position: fixed;
-    
     flex-grow: 1;
     top: 0;
     width: 100vw;
     height: 8vh;
     background: rgba(var(--color5), 0.9);
     padding: 5px;
-    
-    
 }
 
 .homedirectory {
@@ -65,8 +58,6 @@ ul {
     justify-content: flex-end;
     min-width: 0;
     padding-right: 0;
-
-
 }
 
 a:link {
@@ -91,18 +82,14 @@ a:visited {
     display: flex;
     gap: .5em;
     justify-content: flex-end;
-    /*border: 1px solid orange;*/
     list-style-type: none;
     flex: auto;
     padding: 1em;
-
 }
 
 .navbar a {
     display: flex;
 }
-
-
 
 .main {
     display: flex;
@@ -124,24 +111,19 @@ a:visited {
 
 form {
     padding: 1em;
-
 }
 
 .social-media {
     display: flex;
     padding-bottom: .2em;
     font-size: 1.5em;
-    /*border: 1px solid purple;*/
-    /*justify-content: flex-end;*/
     gap: 5px;
     flex-direction: row;
     flex-grow: 1;
 }
 
-
 footer {
     padding-top: 5px;
-    /*background: hsl(36, 100%, 90%, 0.4);*/
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -156,108 +138,53 @@ footer {
     justify-content: space-between;
     padding: 6px;
     width: 100%;
-    /*border: 1px solid purple;*/
 }
+
 .social-media-copyright {
     display: flex;
-    /*flex-grow: 1;*/
     margin-top: 10px;
     justify-content: flex-end;
-    /*
-    border: 1px solid pink;*/
     flex-direction: column;
 }
+
 .contact-info {
     flex-grow: 1;
     flex-direction: column;
     justify-content: stretch;
-    margin-top: 0;
-    /*flex-grow: 1;
-    border: 1px solid orange;*/
-      
+    margin-top: 0;      
 }
 
 .copyright {
     font-size: 0.7em;
-    /*justify-content: flex-start;*/
     margin-top: 2px;
     opacity: .5;
-    /*
-    border: 1px solid gray;*/
-  
 }
+
 .contact-info p {
     margin: 0px;
     justify-content: flex-start;
     padding: 3px;
-    
 }
-
-@media screen and (min-width: 600px) {
-footer {
-    display: flex;
-    flex-direction: column;
-    /*border: 1px solid green;*/
-}
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
-    /*margin-left: 5px;
-    border: 1px solid gray;*/
-}
-
-/* not working, unsure why */
-.footer-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-
-}
-
-.social-media {
-    font-size: 1.8em;
-}
-
-.copyright {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 15px;
-}
-}
-
 
 .social-media a {
     margin-right: 10px;
     display: flex;
     justify-content: flex-end;
-
 }
+
 .contact-info {
     display: flex;
     align-items: flex-start;
-
 }
-
 
 .main-container {
     display: flex;
     flex-direction: column;
-    /*justify-content: flex-start;*/
     align-items: flex-start;
     width: 80%;
 }
-/*
-.main-about-left {
-    width: 40%
-}*/
 
+/*
 .jamesbolandimage {
     display: flex;
     flex-grow: 1;
@@ -267,6 +194,9 @@ main {
     width: 232px;
     opacity: .9;
 }
+*/
+
+/*Animations*/
 
 .main-text h2 {
     animation-name: fade-in;
@@ -307,7 +237,6 @@ main {
     justify-content: space-between;
     padding: 6px;
     width: 100%;
-    /*border: 1px solid purple;*/
 }
 
 .navigation-main {
@@ -318,10 +247,8 @@ main {
     opacity: 0;
     animation-fill-mode: forwards;
     display: flex;
-    /*border: 1px solid black;*/
     align-items: center;
     justify-content: flex-end;
-    /*gap: 250px;*/
     position: fixed;
     flex-grow: 1;
     top: 0;
@@ -341,3 +268,40 @@ main {
         color: var(--color1);
     }
 }
+
+/*media query*/
+
+@media screen and (min-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    /* not working, unsure why */
+    .footer-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    
+    }
+    
+    .social-media {
+        font-size: 1.8em;
+    }
+    
+    .copyright {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+    }
