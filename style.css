@@ -17,11 +17,13 @@ h2 {
     margin: 0;
     box-sizing: border-box;
     font-family: var(--secondary-font);
+    font-weight: 100;
     color: var(--color1);
 }
 
 .header {
     position: fixed;
+
     
 }
 
@@ -30,6 +32,7 @@ h2 {
     font-size: 50px;
     padding: 10px 5px;
     color: var(--color1);
+    
 }
 
 .navigation {
@@ -52,6 +55,7 @@ h2 {
 
 .homedirectory {
     font-size: .7em;
+    padding-top: 10px;
 }
 
 ul {
@@ -209,6 +213,14 @@ main {
     border: 1px solid gray;*/
 }
 
+/* not working, unsure why */
+.footer-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
 .social-media {
     font-size: 1.8em;
 }
@@ -219,6 +231,8 @@ main {
     margin-right: 15px;
 }
 }
+
+
 .social-media a {
     margin-right: 10px;
     display: flex;
@@ -229,4 +243,101 @@ main {
     display: flex;
     align-items: flex-start;
 
+}
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: flex-start;*/
+    align-items: flex-start;
+    width: 80%;
+}
+/*
+.main-about-left {
+    width: 40%
+}*/
+
+.jamesbolandimage {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: center;
+    height: 416px;
+    width: 232px;
+    opacity: .9;
+}
+
+.main-text h2 {
+    animation-name: fade-in;
+    animation-delay: 0s;
+    animation-duration: 1.5s;
+    transition: 1s;
+    color: rgba(var(--color5), 0.9);
+}
+
+.main-text p {
+    animation-name: fade-in;
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+    transition: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.main-text span {
+    animation-name: fade-in;
+    animation-delay: 3s;
+    animation-duration: 1.5s;
+    transition: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.footer-main {
+    animation-name: fade-in;
+    animation-delay: 3.5s;
+    animation-duration: 1s;
+    transition: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 6px;
+    width: 100%;
+    /*border: 1px solid purple;*/
+}
+
+.navigation-main {
+    animation-name: fade-in;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    transition: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    display: flex;
+    /*border: 1px solid black;*/
+    align-items: center;
+    justify-content: flex-end;
+    /*gap: 250px;*/
+    position: fixed;
+    flex-grow: 1;
+    top: 0;
+    width: 100vw;
+    height: 8vh;
+    background: rgba(var(--color5), 0.9);
+    padding: 5px;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        color: rgba(var(--color5), 0.9);
+    }
+    100% {
+        opacity: 1;
+        color: var(--color1);
+    }
 }
