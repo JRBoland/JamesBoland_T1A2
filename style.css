@@ -71,6 +71,7 @@ a:hover {
 a:active {
     text-decoration: none;
     font-style: italic;
+    opacity: .7;
 }
 
 a:visited {
