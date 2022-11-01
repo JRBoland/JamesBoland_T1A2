@@ -39,11 +39,12 @@ h2, h1 {
     height: 8.5vh;
     width: 100%;
 }
-.main--about, .main--projects, .main--contact {
+.main--about, .main--projects, .main--contact, .main--blog {
     padding: 10%;
     /*border: 1px solid red;*/
     display: flex;
     flex-direction: column;
+    margin: auto;
     
 }
 
@@ -78,9 +79,8 @@ h2, h1 {
     flex-grow: 1;
     height: 90vh;
 }
-.text--projects {
-    border: 1px
-}
+
+
 /*.main--contact h2 {
     font-size: 48px;
     /*border: 2px solid green;
@@ -92,7 +92,7 @@ h2, h1 {
     
 }*/
 
-.main--about h2, .main--projects h2, .main--contact h2 {
+.main--about h2, .main--projects h2, .main--contact h2, .main--blog h2 {
 
     /*width: 268px;
     height: 66px;
@@ -102,7 +102,7 @@ h2, h1 {
     line-height: 52px;
    /* border: 2px solid green;*/
     padding-bottom: 20px;
-    margin-top: 100px;
+    margin-top: 70px;
     
 }
 
@@ -175,8 +175,21 @@ h2, h1 {
     
 }
 
+.blogs {
+    display: flex;
+    flex-direction: column;
+}
+
 .blogs--projects {
-    display: block;
+    /*border: 1px solid orange;*/
+    position: relative;
+}
+
+.blogs--projects {
+    display: flex;
+    flex-flow: column;
+
+    
     /*border: 2px solid white;*/
 }
 
@@ -189,6 +202,13 @@ h2, h1 {
 .blogs--projects img {
     width: 120px;
     height: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.main--blog img {
+    width: 250px;
+    height: 250px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
@@ -380,11 +400,11 @@ footer {
     transition: 0.3s;
     color: rgba(var(--color5), 0.9);
 }
-.main--contact, .main--about, .main--projects {
+.main--contact, .main--about, .main--projects, .main--blog {
     animation-name: fade-in;
     animation-delay: 0s;
-    animation-duration: 1.5s;
-    transition: 1.5;
+    animation-duration: 1s;
+    transition: 1;
     color: rgba(var(--color5), 0.9);
 }
 .main-text p {
@@ -569,29 +589,39 @@ footer {
        /* border: 2px solid orange;*/
         flex-grow: 0;
         height: 95vh;
-        
-        
-        
-
     }
+
+    .text--projects {
+        width: 60%;
+    }
+
+ 
 
     .main--about h2, .main--projects h2, .main--contact h2 {
         
         /*border: 2px solid green;*/
         font-size: 48px;
         line-height: 52px;
-       /* border: 2px solid green;*/
         padding-bottom:100px;
-        margin-top: 0px;
+        margin-top: 100px;
         height: 100px;
         margin-bottom: 40px;
     }
     .main--about p {
         position: static;
-        width: 582px;
+        width: 400px;
         /*height: auto;*/
         /*left: 301px;
         top: 283px;*/
+        padding: 0px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        /*border: 2px solid pink;*/
+        align-items: flex-start;
+    }
+
+    .main--projects p {
+        width: auto;
         padding: 0px 20px;
         display: flex;
         flex-wrap: wrap;
@@ -604,50 +634,61 @@ footer {
         justify-content: center;
     }
 
+    .text--projects {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        
+
+    }
+
+    .text--about {
+        /*margin-bottom: auto;*/
+    }
     
-    .main--projects p {
+    /*.main--projects p {
         position: static;
         width: auto;
         /*height: auto;*/
         /*left: 301px;
-        top: 283px;*/
+        top: 283px;
         padding: 0px 20px;
         display: flex;
         flex-wrap: wrap;
-       /* border: 2px solid pink;*/
+       /* border: 2px solid pink;
         align-items: flex-start;
-    }
-    .content--projects {
+    }*/
+    /*.content--projects {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-    }
-    .main--projects {
+    }*/
+    /*.main--projects {
         margin-top: 10%;
         height: 95vh;
         width: 90%;
-        /*border: 2px solid teal;*/
+        /*border: 2px solid teal;
         display: flex;
         justify-content: center;
         align-content: flex-start;
         /*
         padding: 0 15% 25% 15%;*/
 
-    }
+    
 
    
 
-
+/*
     .text--projects {
-       /* border: 2px solid brown;*/
+       /* border: 2px solid brown;
         height: 90vh;
         width: 65vw;
     }
 
     .content--projects {
-        /*border: 2px soli   d red;*/
+        /*border: 2px soli   d red;
         height: 95vh;
-    }
+    }*/
 
     .widget--contact {
        /* border: 2px solid blue;*/
@@ -673,15 +714,83 @@ footer {
     }
 
     .blogs--projects ul {
-        position: static;
+        display: flex;
           
     }
-    .blogs--projects img {
+
+    .blogs--projects p {
+        height: 250px;
+        align-items: center;
+        padding-bottom: 8%;
+        overflow: hidden;
+    }
+    .blogs--projects img, .main--blog img {
         width: 250px;
         height: 250px;
         margin-right: 20px;
         margin-bottom: 20px;
     }
+
+   /* .main--blog {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }*/
+
+    .main--blog img {
+        float: left;
+    }
+
+    .main--blog {
+        display: flex;
+        padding-top: 100px;
+        margin: auto;
+        margin-bottom: 70px;
+        justify-content: center;
+        width: 80%;
+       /* border: 1px solid green;*/
+        
+    }
+
+    .main--blog h2 {
+        font-size: 48px;
+        line-height: 52px;
+      /* border: 2px solid green;*/
+        padding-bottom:100px;
+        margin-top: 0px;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .published-date--blog span {
+        width: auto;
+        padding: 5% 2% 5% 5%;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+
+    }
+
+    .published-date--blog a {
+        width: auto;
+        padding: 5% 2% 5% 5%;
+        height: 2em;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    
+    
+    }
+
+    .published-date--blog {
+        
+    }
+    
+   
+
+
     /*.blog-posts {
         position: sticky;
         width: 884px;
@@ -689,5 +798,34 @@ footer {
         left: 314px;
         top: 316px;
         border: 2px solid pink;
-    }*/
+    }
+}*/
 }
+
+
+@media screen and (min-width: 800px) {
+    
+    .main--about p{
+    width: 582px;
+    }
+
+    .blogs--projects ul {
+        display: flex;
+          
+    }
+}
+
+
+/*
+
+.main--about, .main--projects, .main--contact, .main--index {
+    border: 1px solid chartreuse;
+}
+
+.content--projects, .content--about, .content--contact {
+    border: 1px solid pink;
+}
+
+.text--about, .text--projects, .text--contact {
+    border: 3px solid white;
+}*/
