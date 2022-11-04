@@ -878,7 +878,7 @@ footer {
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     
     .main--about p{
     width: 582px;
