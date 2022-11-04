@@ -285,7 +285,7 @@ a:hover {
 
 .find-out-more a:active {
     font-size: 1em;
-    transition: 0.4s;
+    transition: 0.2s;
     text-shadow: 0.2em 1em #b4d2e7;
 }
 
@@ -294,7 +294,6 @@ a:active {
     text-decoration: none;
     font-style: italic;
     opacity: .7;
-    text-shadow: 0.2em .8em #b4d2e7;
     transition: 0.4s
 }
 
