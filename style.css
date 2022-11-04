@@ -67,8 +67,11 @@ h2, h1 {
 .find-out-more {
     position: absolute;
     top: 66%;
-    left: 33%;
+    left: 66vw;
 }
+
+
+
 
 .widget--contact {
     /*border: 2px solid blue;*/
@@ -424,8 +427,6 @@ footer {
     flex-direction: row;
     
 }
-
-
 
 
 
@@ -860,7 +861,7 @@ footer {
     }
     
     .find-out-more {
-        left: 50%;
+        left: 55vw;
         top: 70%;
     }
    
