@@ -32,12 +32,17 @@ h2, h1 {
     line-height: 1.3;
     
 }
+/*section {
+    height: 92vh
+    border: 1px solid gray;
+}*/
 
-.header {
+#header {
     position: fixed;  
     background-color:#191919;
-    height: 8.5vh;
+    height: 80px;
     width: 100%;
+    z-index: 10;
 }
 .main--about, .main--projects, .main--contact, .main--blog {
     padding: 10%;
@@ -48,16 +53,45 @@ h2, h1 {
     
 }
 
+.main--about, .main--projects, .main-blog p {
+    padding: 2em;
+}
+
+.main {
+    border: 1px chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-out-more {
+    position: absolute;
+    top: 66%;
+    left: 33%;
+}
+
 .widget--contact {
     /*border: 2px solid blue;*/
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    padding: 50% 15% 20% 15%;
+    padding-top: 25vh;
+    padding-left: 10%;
     position: relative;
     top: 0px;
+   /* border: 1px solid blue;*/
+    width: 300px;
     
+    
+}
+
+.contact-list--contact {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1.5em;
+    font-size: 1.2em;
 }
 
 .info--contact {
@@ -71,13 +105,18 @@ h2, h1 {
     gap: 1.2em;
 }
 
+.blogs {
+    margin: 20px;
+}
+
+
 .text--contact {
-    /*border: 5px solid gray;*/
-    display: block;
+    /*border: 5px solid gray;
+    display: flex;
     align-content: center;
     justify-items: center;
-    flex-grow: 1;
-    height: 90vh;
+    /*flex-grow: 1
+    height: 90vh;*/
 }
 
 
@@ -101,7 +140,7 @@ h2, h1 {
     font-size: 48px;
     line-height: 52px;
    /* border: 2px solid green;*/
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     margin-top: 70px;
     
 }
@@ -204,6 +243,7 @@ h2, h1 {
     height: 120px;
     margin-right: 20px;
     margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 .main--blog img {
@@ -211,6 +251,7 @@ h2, h1 {
     height: 250px;
     margin-right: 20px;
     margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 .homedirectory {
@@ -235,10 +276,26 @@ a:hover {
     opacity: .7;
 }
 
+.find-out-more a:hover {
+    font-size: 1em;
+    transition: .4s;
+    text-shadow: 0.2em 1em #b4d2e7;
+   
+}
+
+.find-out-more a:active {
+    font-size: 1em;
+    transition: 0.4s;
+    text-shadow: 0.2em 1em #b4d2e7;
+}
+
+
 a:active {
     text-decoration: none;
     font-style: italic;
     opacity: .7;
+    text-shadow: 0.2em .8em #b4d2e7;
+    transition: 0.4s
 }
 
 a:visited {
@@ -400,6 +457,19 @@ footer {
     transition: 0.3s;
     color: rgba(var(--color5), 0.9);
 }
+
+.find-out-more a {
+    font-size: 1em;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-delay: 4s;
+    animation-duration: 1.5s;
+    transition: 2s;
+    animation-fill-mode: forwards;
+    
+}
+
+
 .main--contact, .main--about, .main--projects, .main--blog {
     animation-name: fade-in;
     animation-delay: 0s;
@@ -468,7 +538,7 @@ footer {
     }
     100% {
         opacity: 1;
-        color: var(--color1);
+       /* color: var(--color1);*/
     }
 }
 
@@ -502,6 +572,10 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    #header {
+        z-index: 0;
     }
     .footer {
         display: flex;
@@ -622,7 +696,7 @@ footer {
 
     .main--projects p {
         width: auto;
-        padding: 0px 20px;
+        padding: 20px;
         display: flex;
         flex-wrap: wrap;
         /*border: 2px solid pink;*/
@@ -691,14 +765,9 @@ footer {
     }*/
 
     .widget--contact {
-       /* border: 2px solid blue;*/
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10% 20% 10% 20%;
-        position: relative;
-        top: 0px;
+    
+        width: 500px;
+        top: -50px;
         
     }
 
@@ -764,30 +833,37 @@ footer {
     }
 
     .published-date--blog span {
-        width: auto;
+        /*width: auto;
         padding: 5% 2% 5% 5%;
         height: auto;
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
-
+        border: 1px solid chartreuse;*/
     }
 
     .published-date--blog a {
-        width: auto;
-        padding: 5% 2% 5% 5%;
+       /* padding: 5% 2% 5% 5%;
         height: 2em;
         display: flex;
         justify-content: flex-end;
         align-items: flex-start;
+        border: 1px solid pink;*/
     
     
     }
 
     .published-date--blog {
-        
+        /*border: 1px solid orange;*/
+        height: 300px;
+        padding: 4% 2% 4% 4%;
+        margin-bottom: 50px;
     }
     
+    .find-out-more {
+        left: 50%;
+        top: 70%;
+    }
    
 
 
