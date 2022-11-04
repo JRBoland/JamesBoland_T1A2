@@ -160,7 +160,7 @@ h2, h1 {
     width: 280px;
     height: 408px;
     border-radius: 4px;
-    margin: 10px;
+    margin: 20px auto;
 }
 /*(.main--about p, .main--projects p, .main--contact p {
     position: absolute;
