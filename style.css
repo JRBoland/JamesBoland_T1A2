@@ -50,7 +50,7 @@ h2, h1 {
 .main {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .find-out-more {
@@ -223,7 +223,7 @@ a:visited {
     align-items: center;
     height: 95vh;
     width: 100vw;
-    padding: 20px 10px;
+    padding: 20px 20px;
 }
 
 form {
@@ -317,34 +317,26 @@ footer {
     align-items: flex-start;
 }
 
-.main-container {
-    display: flex;
-    flex-direction: row;
-}
 
 /*Animations*/
 
 .text--main h1 {
-    animation-name: fade-in;
-    animation-delay: 0s;
-    animation-duration: 1.5s;
+    animation-name: float-in;
+    transform: translateY(3rem);
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
     transition: 2s;
+    opacity: 0;
     color: rgba(var(--color5), 0.9);
 }
 
-.main h2 {
-    animation-name: fade-in;
-    animation-delay: 0s;
-    animation-duration: 0.2s;
-    transition: 0.3s;
-    color: rgba(var(--color5), 0.9);
-}
 
 .find-out-more a {
     font-size: 1em;
     opacity: 0;
     animation-name: fade-in;
-    animation-delay: 4s;
+    animation-delay: 8s;
     animation-duration: 1.5s;
     transition: 2s;
     animation-fill-mode: forwards;
@@ -353,23 +345,14 @@ footer {
 .main--contact, .main--about, .main--projects, .main--blog {
     animation-name: fade-in;
     animation-delay: 0s;
-    animation-duration: 1s;
+    animation-duration: 2s;
     transition: 1;
     color: rgba(var(--color5), 0.9);
 }
 
 .text--main p {
     animation-name: fade-in;
-    animation-delay: 1s;
-    animation-duration: 1.5s;
-    transition: 2s;
-    opacity: 0;
-    animation-fill-mode: forwards;
-}
-
-.text--main span {
-    animation-name: fade-in;
-    animation-delay: 2s;
+    animation-delay: 2.5s;
     animation-duration: 1.5s;
     transition: 2s;
     opacity: 0;
@@ -378,9 +361,9 @@ footer {
 
 .footer--main {
     position: fixed;
-        bottom: 0;
+    bottom: 0;
     animation-name: fade-in;
-    animation-delay: 3s;
+    animation-delay: 6.7s;
     animation-duration: 1s;
     transition: 2s;
     opacity: 0;
@@ -395,7 +378,7 @@ footer {
 
 .navigation--main {
     animation-name: fade-in;
-    animation-delay: 3.2s;
+    animation-delay: 7s;
     animation-duration: 1s;
     transition: 2s;
     opacity: 0;
@@ -422,24 +405,63 @@ footer {
     }
 }
 
-@keyframes blinking {
-    50% {
-        border-right: none;
+@keyframes float-in {
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 
-@keyframes move-to-center {
-    0% {
-        position: relative;
-    }
-    100% {
-        position: fixed;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+@keyframes blinking {
+   to {
+        background: transparent;
     }
 }
+
+
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+.typing-text--main {
+    /*animation: typewriter */
+    font-family: 'Archivo', monospace;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;    
+    /*transition: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;*/
+}
+
+.typing-text--main::before,
+.typing-text--main::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.typing-text--main::before {
+    background: #191919;
+    animation: typewriter 2.5s steps(32) 4s forwards;
+}
+
+.typing-text--main::after {
+    width: 0.125em;
+    background: #f8f8f8;
+    animation: typewriter 2.5s steps(32) 4s forwards, blinking 500ms steps(32) infinite;
+    /*animation-delay: 3s;*/
+}
+
+
+
 
 /*media query*/
 
@@ -488,11 +510,6 @@ footer {
         margin-right: 15px;
     }
 
-    .main-container {
-        height: 80%;
-        padding-top: 8%;
-    }
-
     .jbimage {
         display: flex;
         align-content: center;
@@ -502,12 +519,6 @@ footer {
         width: 280px;
         height: 408px;
         border-radius: 4px;
-    }
-
-    .main-container {
-        flex: auto;
-        width: 70%;
-        border: 2px solid blue;
     }
 
     .jbimg {
@@ -628,7 +639,6 @@ footer {
 
     .blogs--projects ul {
         display: flex;
-          
     }
 }
 
