@@ -323,7 +323,7 @@ footer {
 
 .text--main h1 {
     animation-name: float-in;
-    transform: translateY(2rem);
+    transform: translateY(1rem);
     animation-delay: .5s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -363,12 +363,14 @@ footer {
 .footer--main {
     position: fixed;
     bottom: 0;
-    animation-name: fade-in;
-    animation-delay: 7s;
+    animation-name: float-in;
+    animation-delay: 6.6s;
     animation-duration: 1s;
+    transform: translateY(.5rem);
     transition: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -378,9 +380,10 @@ footer {
 }
 
 .navigation--main {
-    animation-name: fade-in;
-    animation-delay: 7.3s;
+    animation-name: float-in;
+    animation-delay: 7.5s;
     animation-duration: 1s;
+    transform: translateY(-.5rem);
     transition: 2s;
     opacity: 0;
     animation-fill-mode: forwards;
@@ -465,13 +468,13 @@ footer {
 
 .typing-text--main::before {
     background: #191919;
-    animation: typewriter 3s steps(32) 4s forwards;
+    animation: typewriter 2.5s steps(32) 4s forwards;
 }
 
 .typing-text--main::after {
     width: 0.125em;
     
-    animation: appear 3.5s ease, typewriter 3s steps(32) 4s forwards, blinking 500ms steps(32) infinite;
+    animation: appear 3.5s ease, typewriter 2.5s steps(32) 4s forwards, blinking 500ms steps(32) infinite;
     /*animation-delay: 3s;*/
     background: #f8f8f8;
 }
