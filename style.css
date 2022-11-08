@@ -51,6 +51,7 @@ h2, h1 {
     flex-direction: column;
     margin: auto;
     
+    
 }
 
 .main--about, .main--projects, .main-blog p {
@@ -89,18 +90,31 @@ h2, h1 {
     
 }
 
+
+
 .contact-list--contact {
     display: flex;
     flex-direction: column;
-    width: auto;
-    gap: 1.5em;
-    font-size: 1.2em;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin-top: -40px;
+    padding-top: 10vh;
+    margin-bottom: -1em;
+    /*border: 1px solid chartreuse;*/
+    gap: 1.2em;
+    font-size: 1.2em; 
 }
 
-.info--contact {
-    font-size: 1.5em;
-    
+.contact-list--contact li {
+    width: 260px;
 }
+
+.contact-list--contact i {
+    margin-right: .8em;
+}
+
+
 
 .social-media--content {
     font-size: 2em;
@@ -134,7 +148,7 @@ h2, h1 {
     
 }*/
 
-.main--about h2, .main--projects h2, .main--contact h2, .main--blog h2 {
+.main--about h2, .main--projects h2, .main--blog h2 {
 
     /*width: 268px;
     height: 66px;
@@ -365,16 +379,26 @@ footer {
 }
 
 .footer {
-    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-    padding: 6px;
+    padding: 1em 1em;
     width: 100%;
     bottom: 0;
     position: static;
+   /* border: 1px solid green;*/
 }
+
+#footer--contact {
+    position: fixed;
+    bottom: 0;
+    padding: 1em 1em;
+    width: 100%;
+    /*border: 1px solid green;*/
+}
+
+
 
 .contact-footer {
     display: flex;
@@ -385,11 +409,20 @@ footer {
     width: 100%;
 }
 
+
 .social-media-copyright {
     display: flex;
     margin-top: 10px;
     justify-content: flex-end;
     flex-direction: column;
+}
+
+#social-media-copyright--contact {
+   bottom: 0;
+}
+
+#footer--contact {
+
 }
 
 .contact-info {
@@ -403,6 +436,7 @@ footer {
     font-size: 0.7em;
     margin-top: 2px;
     opacity: .5;
+   /* border: 1px solid green;*/
 }
 
 .contact-info p {
@@ -433,7 +467,7 @@ footer {
 
 /*Animations*/
 
-.main-text h1 {
+.text--main h1 {
     animation-name: fade-in;
     animation-delay: 0s;
     animation-duration: 1.5s;
@@ -477,7 +511,7 @@ footer {
     transition: 1;
     color: rgba(var(--color5), 0.9);
 }
-.main-text p {
+.text--main p {
     animation-name: fade-in;
     animation-delay: 1s;
     animation-duration: 1.5s;
@@ -486,7 +520,7 @@ footer {
     animation-fill-mode: forwards;
 }
 
-.main-text span {
+.text--main span {
     animation-name: fade-in;
     animation-delay: 2s;
     animation-duration: 1.5s;
@@ -495,7 +529,7 @@ footer {
     animation-fill-mode: forwards;
 }
 
-.footer-main {
+.footer--main {
     position: fixed;
         bottom: 0;
     animation-name: fade-in;
@@ -508,11 +542,11 @@ footer {
     flex-direction: column;
     align-items: stretch;
     justify-content: space-between;
-    padding: 6px;
+    padding: 1em;
     width: 100%;
 }
 
-.navigation-main {
+.navigation--main {
     animation-name: fade-in;
     animation-delay: 3.2s;
     animation-duration: 1s;
@@ -594,7 +628,7 @@ footer {
         
     
     /* not working, unsure why */
-    .footer-main {
+    .footer--main {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
@@ -654,14 +688,14 @@ footer {
    
     }
 
-    .main--about, .main--projects, .main--contact{
+    .main--about, .main--projects, .main--contact {
         padding: 0;   
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-       /* border: 2px solid orange;*/
-        flex-grow: 0;
+       /* border: 2px solid orange;
+        flex-grow: 0;*/
         height: 95vh;
     }
 
@@ -671,7 +705,7 @@ footer {
 
  
 
-    .main--about h2, .main--projects h2, .main--contact h2 {
+    .main--about h2, .main--projects h2 {
         
         /*border: 2px solid green;*/
         font-size: 48px;
@@ -764,7 +798,7 @@ footer {
         height: 95vh;
     }*/
 
-    .widget--contact {
+    /*.widget--contact {
     
         width: 500px;
         top: -50px;
@@ -773,14 +807,14 @@ footer {
 
     .main--contact h2 {
         font-size: 48px;
-        /*border: 2px solid green;*/
+        /*border: 2px solid green;
         padding-bottom: 50px;
         margin-top: 50px;
         padding: 7% 18% 5% 18%;
-        /*border: 1px solid gray;*/
+        /*border: 1px solid gray;
         display: flex;
         justify-content: flex-start;
-    }
+    }*/
 
     .blogs--projects ul {
         display: flex;
