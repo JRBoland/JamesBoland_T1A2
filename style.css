@@ -70,6 +70,7 @@ h2, h1 {
     margin-bottom: -1em;
     gap: 1.2em;
     font-size: 1.2em; 
+    margin-left: 3em;
 }
 
 .contact-list--contact li {
@@ -323,7 +324,7 @@ footer {
 .text--main h1 {
     animation-name: float-in;
     transform: translateY(2rem);
-    animation-delay: 1.5s;
+    animation-delay: .5s;
     animation-duration: 2s;
     animation-fill-mode: forwards;
     transition: 1s;
@@ -345,14 +346,14 @@ footer {
 .main--contact, .main--about, .main--projects, .main--blog {
     animation-name: fade-in;
     animation-delay: 0s;
-    animation-duration: 2s;
+    animation-duration: 1s;
     transition: 1;
     color: rgba(var(--color5), 0.9);
 }
 
 .text--main p {
     animation-name: fade-in;
-    animation-delay: 3.5s;
+    animation-delay: 2.5s;
     animation-duration: 1.5s;
     transition: 2s;
     opacity: 0;
@@ -363,7 +364,7 @@ footer {
     position: fixed;
     bottom: 0;
     animation-name: fade-in;
-    animation-delay: 6.7s;
+    animation-delay: 7s;
     animation-duration: 1s;
     transition: 2s;
     opacity: 0;
@@ -378,7 +379,7 @@ footer {
 
 .navigation--main {
     animation-name: fade-in;
-    animation-delay: 7s;
+    animation-delay: 7.3s;
     animation-duration: 1s;
     transition: 2s;
     opacity: 0;
@@ -409,6 +410,20 @@ footer {
     to {
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0%;
+    }
+
+90% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
     }
 }
 
@@ -450,14 +465,15 @@ footer {
 
 .typing-text--main::before {
     background: #191919;
-    animation: typewriter 2.5s steps(32) 4.5s forwards;
+    animation: typewriter 3s steps(32) 4s forwards;
 }
 
 .typing-text--main::after {
     width: 0.125em;
-    background: #f8f8f8;
-    animation: typewriter 2.5s steps(32) 4.5s forwards, blinking 500ms steps(32) infinite;
+    
+    animation: appear 3.5s ease, typewriter 3s steps(32) 4s forwards, blinking 500ms steps(32) infinite;
     /*animation-delay: 3s;*/
+    background: #f8f8f8;
 }
 
 
