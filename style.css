@@ -377,6 +377,11 @@ footer {
     padding: .5em;
 }
 
+.about, h3 {
+    padding-top: 4em;
+}
+
+
 /*Animations*/
 
 .education i {
@@ -385,12 +390,12 @@ footer {
 }
 
 .interests i {
-    animation: fade-in 1.5s ease forwards 1.5s;
+    animation: fade-in 1.5s ease forwards 2s;
     opacity: 0;
 }
 
 .skills i {
-    animation: fade-in 1.5s ease forwards 2s;
+    animation: fade-in 1.5s ease forwards 3s;
     opacity: 0;
 }
 
@@ -400,7 +405,7 @@ footer {
 }
 
 .jbimg {
-    padding-bottom: 5em;
+    padding-bottom: 4em;
 }
 
 
@@ -656,7 +661,14 @@ footer {
         margin-bottom: 40px;
     }
 
-    
+    .about {
+        padding-top: 1em;
+
+    }
+
+    .skills--about {
+        padding-bottom: 8em;
+    }
 
     .main--about p {
         position: static;
