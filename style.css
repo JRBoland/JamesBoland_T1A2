@@ -381,6 +381,20 @@ footer {
     align-items: flex-start;
 }
 
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.submit-button input {
+    padding: .2em .4em;
+}
+
+
+
+
 .skills--about {
     display: flex;
     flex-direction: row;
