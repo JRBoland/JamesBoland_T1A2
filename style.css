@@ -390,7 +390,22 @@ footer {
 
 .submit-button input {
     padding: .2em .4em;
+    font-family: inherit;
+    font-size: .8em;
+    border-radius: 4px;
+    background-color: #A1A6B4;
+    border: 1px solid #f8f8f8;
 }
+
+.submit-button input:hover {
+    background-color: #f8f8f8;
+}
+
+.submit-button input:active {
+    background-color: #b4d2e7;
+}
+
+
 
 
 
