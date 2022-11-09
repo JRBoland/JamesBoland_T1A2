@@ -96,7 +96,6 @@ h2, h1, h3 {
 h3 {
     font-size: 36px;
     line-height: 52px;
-    padding-bottom: 40px;
     display: flex;
     width: auto;
     /*border: 2px solid green;*/
@@ -119,6 +118,7 @@ h3 {
     justify-content: flex-end;
     /*border: 1px solid chartreuse;*/
 }
+
 
 
 
@@ -151,6 +151,11 @@ h3 {
     height: 8vh;
     background-color: rgba(var(--color5), 0.9);
     padding: 5px;
+}
+
+.download-cv {
+    position: absolute;
+    padding: 1em 1em 0 3em;
 }
 
 .blogs {
@@ -348,6 +353,29 @@ footer {
     align-items: flex-start;
 }
 
+.skills--about {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+   
+}
+
+.skills--about ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.locked-skills--about li {
+    opacity: 0.7;
+}
+
+.skills--about i {
+    font-size: 2em;
+    padding: .5em;
+}
 
 /*Animations*/
 
@@ -369,6 +397,10 @@ footer {
 .download-cv, .jbimage {
     animation: fade-in 2s linear forwards;
     opacity: 0;
+}
+
+.jbimg {
+    padding-bottom: 5em;
 }
 
 
