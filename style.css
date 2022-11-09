@@ -87,7 +87,7 @@ h2, h1, h3 {
 }
 
 .main--about h2, .main--projects h2, .main--blog h2 {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 52px;
     padding-bottom: 40px;
     margin-top: 70px;   
@@ -108,6 +108,15 @@ h3 {
     font-size: 1.2em;
 }
 
+.text--about h1 {
+    font-size: 48px;
+    line-height: 52px;
+    margin-top: 70px; 
+    padding-top: 6em;
+    padding-bottom: 1em;
+
+}
+
 .text--about {
    margin: auto;
 }
@@ -115,7 +124,7 @@ h3 {
 
 .education, .skills  {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     /*border: 1px solid chartreuse;*/
 }
 
@@ -124,6 +133,14 @@ h3 {
     justify-content: flex-start;
 }
 
+
+h1 i {
+    color: #b4d2e7;
+}
+
+h2 i {
+    color: #b4d2e7
+}
 
 
 
@@ -658,7 +675,7 @@ footer {
     }
 
     .main--about h2, .main--projects h2 {
-        font-size: 48px;
+        font-size: 36px;
         line-height: 52px;
         padding-bottom:100px;
         margin-top: 100px;
@@ -666,9 +683,27 @@ footer {
         margin-bottom: 40px;
     }
 
+    .education, .skills  {
+        display: flex;
+        justify-content: flex-end;
+        /*border: 1px solid chartreuse;*/
+    }
+
     .about {
         padding-top: 1em;
 
+    }
+
+    .text--about h1 {
+        font-size: 48px;
+        line-height: 52px;
+        padding-bottom: 40px;
+        margin-top: 70px; 
+        padding: 2em 0;
+        padding-bottom:100px;
+        height: 100px;
+        margin-bottom: 40px;
+        
     }
 
     .skills--about {
