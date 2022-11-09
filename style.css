@@ -14,9 +14,10 @@ body {
     margin-top: 0;
 }
 
-h2, h1 {
+h2, h1, h3 {
     font-family: var(--main-font), Georgia, 'Times New Roman', Times, serif;
 }
+
 
 * {
     padding: 0;
@@ -91,6 +92,35 @@ h2, h1 {
     padding-bottom: 40px;
     margin-top: 70px;   
 }
+
+h3 {
+    font-size: 36px;
+    line-height: 52px;
+    padding-bottom: 40px;
+    display: flex;
+    width: auto;
+    /*border: 2px solid green;*/
+    margin: 1em auto;
+    padding: .8em;
+}
+
+.text--about i {
+    padding: 0 .5em;
+    font-size: 1.2em;
+}
+
+.text--about {
+   margin: auto;
+}
+
+
+.education, .skills  {
+    display: flex;
+    justify-content: flex-end;
+    /*border: 1px solid chartreuse;*/
+}
+
+
 
 .jbimage {
     display: flex;
@@ -321,6 +351,28 @@ footer {
 
 /*Animations*/
 
+.education i {
+    animation: fade-in 1.5s ease forwards 1s;
+    opacity: 0;
+}
+
+.interests i {
+    animation: fade-in 1.5s ease forwards 1.5s;
+    opacity: 0;
+}
+
+.skills i {
+    animation: fade-in 1.5s ease forwards 2s;
+    opacity: 0;
+}
+
+.download-cv, .jbimage {
+    animation: fade-in 2s linear forwards;
+    opacity: 0;
+}
+
+
+
 .text--main h1 {
     animation-name: float-in;
     transform: translateY(1rem);
@@ -468,13 +520,13 @@ footer {
 
 .typing-text--main::before {
     background: #191919;
-    animation: typewriter 2.5s steps(32) 4s forwards;
+    animation: typewriter 2s steps(32) 4s forwards;
 }
 
 .typing-text--main::after {
     width: 0.125em;
     
-    animation: appear 3.5s ease, typewriter 2.5s steps(32) 4s forwards, blinking 500ms steps(32) infinite;
+    animation: appear 3.5s ease, typewriter 2s steps(32) 4s forwards, blinking 500ms steps(32) infinite;
     /*animation-delay: 3s;*/
     background: #f8f8f8;
 }
@@ -532,21 +584,22 @@ footer {
     .jbimage {
         display: flex;
         align-content: center;
-        justify-content: flex-end;
+        justify-content: center;
         opacity: .9;
-        position: relative;
-        width: 280px;
-        height: 408px;
+        margin: 3em;
+        width: 350px;
+        height: 510px;
         border-radius: 4px;
+        position: fixed;
+        top: 10%;
+        left: calc(50% + 2em);
+
     }
 
-    .jbimg {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        position: relative;
-        top: 30px;
-        left: 30px;
+    .download-cv {
+        position: fixed;
+        top: calc(10% + 510px + 5em);
+        left: calc(50% + 175px);
     }
 
     .main--about, .main--projects, .main--contact {
@@ -570,6 +623,8 @@ footer {
         height: 100px;
         margin-bottom: 40px;
     }
+
+    
 
     .main--about p {
         position: static;
