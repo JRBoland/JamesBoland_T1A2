@@ -100,7 +100,7 @@ h3 {
     width: auto;
     /*border: 2px solid green;*/
     margin: 1em auto;
-    padding: .8em;
+    padding: .5em;
 }
 
 .text--about i {
@@ -117,6 +117,11 @@ h3 {
     display: flex;
     justify-content: flex-end;
     /*border: 1px solid chartreuse;*/
+}
+
+.interests, .about {
+    display: flex;
+    justify-content: flex-start;
 }
 
 
@@ -745,6 +750,10 @@ footer {
     .find-out-more {
         left: 55vw;
         top: 70%;
+    }
+
+    h3 {
+        padding: .8em;
     }
 }
 
