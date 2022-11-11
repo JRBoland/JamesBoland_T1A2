@@ -123,4 +123,4 @@ It is also intended to help in networking, as it is greatly beneficial to have a
 
 *Sitemap created with [draw.io](https://draw.io)*
 
-*I have full license over all other images on the site*
+*I either own, created, or have full license over all other images on the website.*
