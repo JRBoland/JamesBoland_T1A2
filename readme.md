@@ -18,20 +18,20 @@ Working as a modern 'digital business card' or much like a digital CV, an online
 
 On initially loading the website, the main/index page has animations to capture the attention of its users.
 
-The site is composed of four main pages, with additional blog (projects) pages. The user can freely navigate through the four main pages with the nav bar. Clicking the "***./JB*** icon leads the user to the home page and restarts the animation. 
+The site is composed of four main pages, with additional blog (projects) pages. The user can freely navigate through the four main pages with the nav bar. Clicking the ***./JB*** icon leads the user to the home page and restarts the animation. 
 
 The blog posts, accessed through the projects page, has options to navigate between blog posts and back to projects the projects page.
 
 ## Features
 
-- Each link has an opacity hover animation and an additional italicized on click animation 
+- Each link has an opacity hover animation and an additional italicized on click animation.
 
 - **Main/Index page**
-    - Contains a welcome message and a call to action button with its own unique hover animation that links to ***about***
+    - Contains a welcome message and a call to action button with its own unique hover animation that links to ***about***.
     - Contains animations on all elements.
 - **About page**
     - Has the sub headings *about*, *education*, *approach*, and *skills* each with their own paragraph.
-    - The skills sub heading contains a list of languages I am in the process of learning, and languages I will be learning in the not-so-distant future (during this course)
+    - The skills sub heading contains a list of languages I am in the process of learning, and languages I will be learning in the not-so-distant future (during this course).
     - Includes ```keyframe``` animations on some of the sub heading icons.
     - Has an image of me, which is fixed so it can stay in the same position when the user is scrolling on desktop and tablet view. On mobile view the image is at the bottom of the page.
     - Has a link to download my resume.
@@ -52,7 +52,7 @@ Each page of the website also includes a **header** and **footer** section.
 The header section contains:
 - A **nav bar** with access to the ***about***, ***projects***, and ***contact page***.
 - An icon which acts as a home directory navigation. Clicking this icon will lead you back to the same page that you are greeted with when initially loading the site, animations and all.
-- A 'current place' indicator under the icon, denoted by a forward slash (/) and then the current page. eg. /about. The purpose of this is to mimic a directory, eg. ./JB/about
+- A 'current place' indicator under the icon, denoted by a forward slash (/) and then the current page. eg. /home on index.html. The purpose of this is to mimic a directory, eg. ./JB/home or ./JB/about on the about page.
 
    ![Header view](./readme-images/header_view.png)
 
@@ -73,10 +73,10 @@ The footer is styled differently for mobile view vs desktop & tablet view.
 ![Desktop view](./readme-images/desktop_view_screenshot.png)
 
 
-![Tablet view](.readme-images/images/tablet_view_screenshot.png)
+![Tablet view](.readme-images/tablet_view_screenshot.png)
 
-![Mobile view top](.readme-images/images/mobile_view_screenshot_1.png)
-![Mobile view bottom](.readme-images/images/mobile_view_screenshot_2.png)
+![Mobile view top](.readme-images/mobile_view_screenshot_1.png)
+![Mobile view bottom](.readme-images/mobile_view_screenshot_2.png)
 
 
 
