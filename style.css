@@ -119,6 +119,13 @@ li em {
     opacity: .8;
 }
 
+li h4 {
+    margin-bottom: 2em;
+    margin-top: -1em;
+    color: #b4d2e7;
+    letter-spacing: .2em;
+}
+
 .text--about i {
     padding: 0 .5em;
     font-size: 1.2em;
