@@ -10,7 +10,7 @@
 
 ## Purpose
 
-Purpose of this site is to be able to introduce myself and showcase my skills as a developer to potential employers or clients. There is a further intention to update the site with real projects that I have worked on over time, allowing the client or employer to easily see examples of my previous work. 
+Purpose of this site is to be able to introduce myself and showcase my skills and interests as a developer to potential employers or clients. There is a further intention to update the site with real projects that I have worked on over time, allowing the client or employer to easily see examples of my previous work. 
 
 Working as a modern 'digital business card' or much like a digital CV, an online portfolio website allows people to be familiar with the work that I do, and have options to contact me (with the added benefit of seeing my previous work) for the purpose of being hired for new work.
 
