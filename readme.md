@@ -92,7 +92,7 @@ It is also intended to help in networking, as it is greatly beneficial to have a
 ### Mobile view
 ![Mobile view top](./readme-images/mobile_view_screenshot_1.png)
 ![Mobile view bottom](./readme-images/mobile_view_screenshot_2.png)
-- Showing both the top and the bottom of the about page.
+- *Showing both the top and the bottom of the about page.*
 
 
 ## Sitemap
