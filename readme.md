@@ -73,10 +73,10 @@ The footer is styled differently for mobile view vs desktop & tablet view.
 ![Desktop view](./readme-images/desktop_view_screenshot.png)
 
 
-![Tablet view](.readme-images/tablet_view_screenshot.png)
+![Tablet view](./readme-images/tablet_view_screenshot.png)
 
-![Mobile view top](.readme-images/mobile_view_screenshot_1.png)
-![Mobile view bottom](.readme-images/mobile_view_screenshot_2.png)
+![Mobile view top](./readme-images/mobile_view_screenshot_1.png)
+![Mobile view bottom](./readme-images/mobile_view_screenshot_2.png)
 
 
 
