@@ -7,22 +7,22 @@ See the repo at https://github.com/JRBoland/portfolio
 See the presentation video here:
 
 ## Sitemap
-![Sitemap](./images/sitemap.png)
+![Sitemap](./readme-images/sitemap.png)
 
 Note the image on the about page is fixed and will sit in place whilst scrolling on tablet and desktop view.
 
 ## Desktop View
-![Desktop view](./images/desktop_view.png)
-![Desktop view blogs](./images/desktop_view_blogs.png)
+![Desktop view](./readme-images/desktop_view.png)
+![Desktop view blogs](./readme-images/desktop_view_blogs.png)
 
 ## Tablet View
 
-![Tablet view](./images/tablet_view.png)
-![Tablet view blogs](./images/tablet_view_blogs.png)
+![Tablet view](./readme-images/tablet_view.png)
+![Tablet view blogs](./readme-images/tablet_view_blogs.png)
 
 ## Mobile View
-![Mobile view](./images/mobile_view.png)
-![Mobile view blogs](./images/mobile_view_blogs.png)
+![Mobile view](./readme-images/mobile_view.png)
+![Mobile view blogs](./readme-images/mobile_view_blogs.png)
 
 
 
@@ -61,7 +61,7 @@ The site is composed of four main pages, with additional blog (projects) pages.
 - Blog posts
     - The blog posts include a blog post image, date published, and navigation links between the different blog post pages and the projects page
 
-    ![Blog navigation](./images/blog_navigation.png)
+    ![Blog navigation](./readme-images/blog_navigation.png)
 
 There are an additional 5 blog pages each following the same layout, with different navigation options depending on which post you are on (eg. the first post does not have the option to view the previous post, and the last post does not have the option to view the next post)
 
@@ -72,7 +72,7 @@ The header section contains:
 - An icon which acts as a home directory navigation. Clicking this icon will lead you back to the same page that you are greeted with when initially loading the site, animations and all.
 - A 'current place' indicator under the icon, denoted by a forward slash (/) and then the current page. eg. /about. The purpose of this is to mimic a directory, eg. ./JB/about
 
-   ![Header view](./images/header_view.png)
+   ![Header view](./readme-images/header_view.png)
 
 The footer section contains:
 - Quick contact links (call, email)
@@ -81,8 +81,8 @@ The footer section contains:
 
 The footer is styled differently for mobile view vs desktop & tablet view.
 
-![Footer view](./images/footer_view.png)
-![Footer view mobile](./images/footer_view_mobile.png)
+![Footer view](./readme-images/footer_view.png)
+![Footer view mobile](./readme-images/footer_view_mobile.png)
 
 
 
