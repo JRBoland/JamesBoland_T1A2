@@ -1,15 +1,14 @@
 # Portfolio website 
 
-See the live version at https://dotslashjb.netlify.app
+[See the live version](https://dotslashjb.netlify.app)
 
-See the repo at https://github.com/JRBoland/portfolio
+[See the repo](https://github.com/JRBoland/portfolio)
 
-See the presentation video here:
+See the presentation video
 
 ## Sitemap
 ![Sitemap](./readme-images/sitemap.png)
 
-Note the image on the about page is fixed and will sit in place whilst scrolling on tablet and desktop view.
 
 ## Desktop View
 ![Desktop view](./readme-images/desktop_view.png)
@@ -19,6 +18,8 @@ Note the image on the about page is fixed and will sit in place whilst scrolling
 
 ![Tablet view](./readme-images/tablet_view.png)
 ![Tablet view blogs](./readme-images/tablet_view_blogs.png)
+
+- *Note the image on the about page is fixed and will sit in place whilst scrolling on tablet and desktop view.*
 
 ## Mobile View
 ![Mobile view](./readme-images/mobile_view.png)
@@ -30,32 +31,30 @@ Note the image on the about page is fixed and will sit in place whilst scrolling
 
 ______
 
-Description of site to include:
-
-Purpose:
+### Purpose
 
 Purpose of this site is to be able to introduce myself and showcase my skills as a developer to potential employers or clients. There is a further intention to update the site with real projects that I have worked on over time, allowing the client or employer to easily see examples of my previous work. 
 
 Additionally, it works almost like a 'digital business card' in the sense that it allows people to be familiar with the work that I do, and have options to contact me (or see further work) for the purpose of being hired for work.
 
-Functionality/features
+### Functionality/features
 
 On initially loading the website, the main/index page has animations, for the purpose of creating a strong first impression and catch the attention of the viewer.
 
 The site is composed of four main pages, with additional blog (projects) pages. 
 
-- Main/Index page
+- **Main/Index page**
     - This contains a welcome message and a call to action button, linking to about.html
     - Contains animations on all elements.
-- About page
+- **About page**
     - Has the sub headings about, education, approach, and skills.
     - The skills sub heading contains a list of languages I am in the process of learning, and languages I will be learning in the not-so-distant future (during this course)
     - Includes animations on some of the sub heading icons.
     - Has an image of me, which is fixed so it can stay in the same position when the user is scrolling on desktop and tablet view. On mobile view the image is at the bottom of the page.
     - Has a link to download my resume.
-- Projects (blog) page
+- **Projects (blog) page**
     - Contains links to various blog posts, with images, dates and a short descriptor.
-- Contact page
+- **Contact page**
     - Contains social media and contact links and a textarea message form for the user to leave me a message.
 
 - Blog posts
@@ -65,10 +64,10 @@ The site is composed of four main pages, with additional blog (projects) pages.
 
 There are an additional 5 blog pages each following the same layout, with different navigation options depending on which post you are on (eg. the first post does not have the option to view the previous post, and the last post does not have the option to view the next post)
 
-Each page of the website also includes a header and footer section.
+Each page of the website also includes a **header** and **footer** section.
 
 The header section contains:
-- A nav bar with access to the about, projects, and contact page.
+- A **nav bar** with access to the ***about***, ***projects***, and ***contact page***.
 - An icon which acts as a home directory navigation. Clicking this icon will lead you back to the same page that you are greeted with when initially loading the site, animations and all.
 - A 'current place' indicator under the icon, denoted by a forward slash (/) and then the current page. eg. /about. The purpose of this is to mimic a directory, eg. ./JB/about
 
@@ -84,13 +83,9 @@ The footer is styled differently for mobile view vs desktop & tablet view.
 ![Footer view](./readme-images/footer_view.png)
 ![Footer view mobile](./readme-images/footer_view_mobile.png)
 
+- There is a link to download my resume.
 
-
-
-
-There is a link to download my resume.
-
-There is a footer with quick contact links.
+- There is a footer with quick contact links.
 
 
 
