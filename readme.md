@@ -98,7 +98,6 @@ It is also intended to help in networking, as it is greatly beneficial to have a
 ## Sitemap
 ![Sitemap](./readme-images/sitemap.png)
 
-
 ## Desktop view mockups
 ![Desktop view](./readme-images/desktop_view.png)
 ![Desktop view blogs](./readme-images/desktop_view_blogs.png)
@@ -124,4 +123,4 @@ It is also intended to help in networking, as it is greatly beneficial to have a
 
 *Sitemap created with [draw.io](https://draw.io)*
 
-*All other images on the site are my own*
+*I have full license over all other images on the site*
