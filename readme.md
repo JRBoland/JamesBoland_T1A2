@@ -83,17 +83,19 @@ Github
 Netlify
 
 ## Screenshots
-
+### Desktop View
 ![Desktop view](./readme-images/desktop_view_screenshot.png)
 
-
+### Tablet view
 ![Tablet view](./readme-images/tablet_view_screenshot.png)
 
+### Mobile view
 ![Mobile view top](./readme-images/mobile_view_screenshot_1.png)
 ![Mobile view bottom](./readme-images/mobile_view_screenshot_2.png)
+- Showing both the top and the bottom of the about page.
+
 
 ## Sitemap
-
 ![Sitemap](./readme-images/sitemap.png)
 
 
@@ -102,7 +104,6 @@ Netlify
 ![Desktop view blogs](./readme-images/desktop_view_blogs.png)
 
 ## Tablet view mockups
-
 ![Tablet view](./readme-images/tablet_view.png)
 ![Tablet view blogs](./readme-images/tablet_view_blogs.png)
 
