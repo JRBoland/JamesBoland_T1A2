@@ -66,21 +66,6 @@ The footer is styled differently for mobile view vs desktop & tablet view.
 ![Footer view](./readme-images/footer_view.png)
 ![Footer view mobile](./readme-images/footer_view_mobile.png)
 
-
-
-## Screenshots
-
-![Desktop view](./readme-images/desktop_view_screenshot.png)
-
-
-![Tablet view](./readme-images/tablet_view_screenshot.png)
-
-![Mobile view top](./readme-images/mobile_view_screenshot_1.png)
-![Mobile view bottom](./readme-images/mobile_view_screenshot_2.png)
-
-
-
-
 ## Target audience
 
 The target audience is anyone that I wish to work with, or that may wish to work with me. It is intended to be for potential employers, or clients. 
@@ -97,18 +82,26 @@ Figma
 Github
 Netlify
 
+## Screenshots
 
+![Desktop view](./readme-images/desktop_view_screenshot.png)
+
+
+![Tablet view](./readme-images/tablet_view_screenshot.png)
+
+![Mobile view top](./readme-images/mobile_view_screenshot_1.png)
+![Mobile view bottom](./readme-images/mobile_view_screenshot_2.png)
 
 ## Sitemap
 
 ![Sitemap](./readme-images/sitemap.png)
 
 
-## Desktop View
+## Desktop view mockups
 ![Desktop view](./readme-images/desktop_view.png)
 ![Desktop view blogs](./readme-images/desktop_view_blogs.png)
 
-## Tablet View
+## Tablet view mockups
 
 ![Tablet view](./readme-images/tablet_view.png)
 ![Tablet view blogs](./readme-images/tablet_view_blogs.png)
@@ -117,7 +110,7 @@ Netlify
 
 
 
-## Mobile View
+## Mobile view mockups
 ![Mobile view](./readme-images/mobile_view.png)
 ![Mobile view blogs](./readme-images/mobile_view_blogs.png)
 
@@ -125,5 +118,9 @@ Netlify
 ### References
 
 *typewriter CSS was made with help from [this video](https://www.youtube.com/watch?v=w1nhwUGsG6M&ab_channel=KevinPowell)*
-*photo from Francesco Ungaro on [pexels.com](http*s://www.pexels.com/photo/close-up-photo-of-brown-seaweeds-3640403/)*
+
+*photo blog-image-4.png from Francesco Ungaro on [pexels.com](http*s://www.pexels.com/photo/close-up-photo-of-brown-seaweeds-3640403/)*
+
 *Sitemap created with [draw.io](https://draw.io)*
+
+*All other images on the site are my own*
