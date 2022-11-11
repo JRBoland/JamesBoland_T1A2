@@ -76,11 +76,11 @@ It is also intended to help in networking, as it is greatly beneficial to have a
 
 ## Tech Stack
 
-HTML5
-CSS3
-Figma
-Github
-Netlify
+- HTML5
+- CSS3
+- Figma
+- Github
+- Netlify
 
 ## Screenshots
 ### Desktop View
@@ -120,7 +120,7 @@ Netlify
 
 *typewriter CSS was made with help from [this video](https://www.youtube.com/watch?v=w1nhwUGsG6M&ab_channel=KevinPowell)*
 
-*photo blog-image-4.png from Francesco Ungaro on [pexels.com](http*s://www.pexels.com/photo/close-up-photo-of-brown-seaweeds-3640403/)*
+*photo blog-image-4.png from Francesco Ungaro on [pexels.com](https://www.pexels.com/photo/close-up-photo-of-brown-seaweeds-3640403/)*
 
 *Sitemap created with [draw.io](https://draw.io)*
 
