@@ -12,7 +12,7 @@
 
 Purpose of this site is to be able to introduce myself and showcase my skills as a developer to potential employers or clients. There is a further intention to update the site with real projects that I have worked on over time, allowing the client or employer to easily see examples of my previous work. 
 
-Additionally, it works almost like a 'digital business card' in the sense that it allows people to be familiar with the work that I do, and have options to contact me (or see further work) for the purpose of being hired for work.
+Working as a modern 'digital business card' or acting as a digital CV, it allows people to be familiar with the work that I do, and have options to contact me (with the added benefit of seeing my previous work) for the purpose of being hired for new work.
 
 ## Functionality
 
@@ -73,10 +73,10 @@ The footer is styled differently for mobile view vs desktop & tablet view.
 ![Desktop view](./readme-images/desktop_view_screenshot.png)
 
 
-![Tablet view](.readme/images/tablet_view_screenshot.png)
+![Tablet view](.readme-images/images/tablet_view_screenshot.png)
 
-![Mobile view top](.readme/images/mobile_view_screenshot_1.png)
-![Mobile view bottom](.readme/images/mobile_view_screenshot_2.png)
+![Mobile view top](.readme-images/images/mobile_view_screenshot_1.png)
+![Mobile view bottom](.readme-images/images/mobile_view_screenshot_2.png)
 
 
 
@@ -84,6 +84,8 @@ The footer is styled differently for mobile view vs desktop & tablet view.
 ## Target audience
 
 The target audience is anyone that I wish to work with, or that may wish to work with me. It is intended to be for potential employers, or clients. 
+
+It is also intended to help in networking, as it is greatly beneficial to have an online website or portfolio to show to other developers.
 
 
 
