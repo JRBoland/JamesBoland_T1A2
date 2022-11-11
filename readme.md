@@ -8,12 +8,6 @@
 
 
 
-
-
-
-
-______
-
 ## Purpose
 
 Purpose of this site is to be able to introduce myself and showcase my skills as a developer to potential employers or clients. There is a further intention to update the site with real projects that I have worked on over time, allowing the client or employer to easily see examples of my previous work. 
@@ -72,12 +66,26 @@ The footer is styled differently for mobile view vs desktop & tablet view.
 ![Footer view](./readme-images/footer_view.png)
 ![Footer view mobile](./readme-images/footer_view_mobile.png)
 
-## Screenshot in desktop view
+
+
+## Screenshots
+
+![Desktop view](./readme-images/desktop_view_screenshot.png)
+
+
+![Tablet view](.readme/images/tablet_view_screenshot.png)
+
+![Mobile view top](.readme/images/mobile_view_screenshot_1.png)
+![Mobile view bottom](.readme/images/mobile_view_screenshot_2.png)
+
+
 
 
 ## Target audience
 
 The target audience is anyone that I wish to work with, or that may wish to work with me. It is intended to be for potential employers, or clients. 
+
+
 
 ## Tech Stack
 
@@ -87,7 +95,10 @@ Figma
 Github
 Netlify
 
+
+
 ## Sitemap
+
 ![Sitemap](./readme-images/sitemap.png)
 
 
@@ -101,6 +112,8 @@ Netlify
 ![Tablet view blogs](./readme-images/tablet_view_blogs.png)
 
 - *Note the image on the about page is fixed and will sit in place whilst scrolling on tablet and desktop view.*
+
+
 
 ## Mobile View
 ![Mobile view](./readme-images/mobile_view.png)
