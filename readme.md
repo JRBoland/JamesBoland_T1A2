@@ -4,7 +4,7 @@
 
 ### [See the repo](https://github.com/JRBoland/portfolio)
 
-### See the presentation video
+### [See the presentation video](https://youtu.be/__ktkdw7_tI)
 
 
 
