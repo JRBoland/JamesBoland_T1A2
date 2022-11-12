@@ -22,6 +22,8 @@ The site is composed of four main pages, with additional blog (projects) pages. 
 
 The blog posts, accessed through the projects page, has options to navigate between blog posts and back to projects the projects page.
 
+The website has been designed utilising flexbox and ```media queries``` to ensure responsiveness across devices.
+
 ## Features
 
 - Each link has an opacity hover animation and an additional italicized on click animation.
