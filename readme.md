@@ -26,6 +26,8 @@ The blog posts, accessed through the projects page, has options to navigate betw
 
 The website has been designed utilising flexbox and ```media queries``` to ensure responsiveness across devices.
 
+Use of visible font size and use of contrasting colours allows for clear readability of the website.
+
 ## Features
 
 - Each link has an opacity hover animation and an additional italicized on click animation.
