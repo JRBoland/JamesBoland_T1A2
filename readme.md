@@ -99,7 +99,7 @@ It is also intended to help in networking, as it is greatly beneficial to have a
 
 ### Mobile view
 ![Mobile view top](./docs/mobile_view_screenshot_1.png)
-![Mobile view bottom](../docs/mobile_view_screenshot_2.png)
+![Mobile view bottom](./docs/mobile_view_screenshot_2.png)
 - *Showing both the top and the bottom of the about page.*
 
 
