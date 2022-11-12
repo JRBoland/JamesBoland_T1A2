@@ -1,0 +1,821 @@
+
+/*root colors and fonts*/
+:root {
+    --color5: #000000e6;
+    --color4: #A1A6B4;
+    --color3: #94C5CC;
+    --color2: #b4d2e7;
+    --color1: #f8f8f8; 
+    --main-font: 'Archivo Black', sans-serif;
+    --secondary-font: 'Archivo', sans-serif;
+}
+
+/*general*/
+body {
+    background: var(--color5);
+    position: relative;
+    margin-top: 0;
+}
+
+h2, h1, h3 {
+    font-family: var(--main-font), Georgia, 'Times New Roman', Times, serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--secondary-font), Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: var(--color1);
+    line-height: 1.3;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    min-width: 0;
+    padding-right: 0;
+}
+
+h1 i {
+    color: #b4d2e7;
+}
+
+h2 i {
+    color: #b4d2e7;
+    z-index: -1;
+}
+
+.main--about h2, .main--projects h2, .main--blog h2 {
+    font-size: 36px;
+    line-height: 52px;
+    padding-bottom: 40px;
+    margin-top: 70px;   
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 52px;
+    display: flex;
+    width: auto;
+    margin: 1em auto;
+    padding: 0 .5em;
+}
+
+/*header and navigation*/
+#header {
+    position: fixed;  
+    background-color:#191919;
+    height: 80px;
+    width: 100%;
+    z-index: 10;
+}
+
+#homeicon {
+    font-family: var(--main-font);
+    font-size: 50px;
+    padding: 10px 5px;
+    color: var(--color1);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    flex-grow: 1;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: rgba(var(--color5), 0.9);
+    padding: 5px;
+}
+
+.navbar {
+    display: flex;
+    gap: .5em;
+    justify-content: flex-end;
+    list-style-type: none;
+    flex: auto;
+    padding: 1em;
+}
+
+.navbar a {
+    display: flex;
+}
+
+.homedirectory {
+    font-size: .7em;
+    padding-top: 10px;
+}
+
+/*main container for several pages*/
+.main--about, .main--projects, .main--contact, .main--blog {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main--about, .main--projects, .main-blog p {
+    padding: 2em;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*call to action button on index.html*/
+.find-out-more {
+    position: absolute;
+    top: 66%;
+    left: 66vw;
+}
+
+/*Contact page contact-list links*/
+.contact-list--contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    margin-top: -40px;
+    padding-top: 10vh;
+    margin-bottom: -1em;
+    gap: 1.2em;
+    font-size: 1.2em; 
+    margin-left: 3em;
+}
+
+.contact-list--contact li {
+    width: 260px;
+}
+
+.contact-list--contact i {
+    margin-right: .8em;
+}
+
+/*blog post list items sub-text*/
+li em {
+    font-size: .9em;
+    opacity: .8;
+}
+
+li h4 {
+    margin-bottom: 2em;
+    margin-top: -1em;
+    color: #b4d2e7;
+    letter-spacing: .2em;
+}
+
+/*icons, heading and image on about page, about page styling*/
+.text--about i {
+    padding: 0 .5em;
+    font-size: 1.2em;
+}
+
+.text--about h1 {
+    font-size: 48px;
+    line-height: 52px;
+    margin-top: 70px; 
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.text--about {
+   margin: auto;
+}
+
+.education, .skills  {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 4em;
+}
+
+.interests, .about {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 4em;
+}   
+
+.jbimage {
+    display: flex;
+    justify-content: flex-end;
+    opacity: .9;
+    position: relative;
+    width: 280px;
+    height: 408px;
+    border-radius: 4px;
+    margin: 20px auto;
+}
+
+/*CV download link*/
+.download-cv {
+    position: absolute;
+    padding: 1em 1em 0 3em;
+}
+
+/*Blog list items on projects page and blog content on blog post pages*/
+.blogs {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-top: 4em;
+}
+
+.blogs--projects {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs--projects li {
+    display: flex;
+    padding: 0;
+}
+
+.blogs--projects img {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(248, 248, 248, 0.4);
+}
+
+.main--blog img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid rgb(248, 248, 248, 0.4);
+}
+
+/*about page styling including skills list styling*/
+.text--about a {
+    margin-left: auto;
+}
+
+.skills--about {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12em;
+}
+
+.skills--about ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-start;
+}
+
+.locked-skills--about li {
+    opacity: 0.7;
+}
+
+.skills--about i {
+    font-size: 2em;
+    padding: 0 0.4em 0.4em .4em;
+}
+
+.about, h3 {
+    padding-top: 4em;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 100vw;
+    padding: 20px 20px;
+}
+
+form {
+    padding: 1em;
+}
+
+
+/*footer*/
+footer {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 1em 1em;
+    width: 100%;
+    bottom: 0;
+    position: static;
+}
+
+#footer--contact {
+    position: fixed;
+    bottom: 0;
+    padding: 1em 1em;
+    width: 100%;
+}
+
+.social-media-copyright {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+#social-media-copyright--contact {
+    bottom: 0;
+ }
+
+ .contact-info {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: stretch;
+    margin-top: 0;
+ }
+
+.copyright {
+    font-size: 0.7em;
+    margin-top: 2px;
+    opacity: .5;
+}
+
+.contact-info p {
+    margin: 0px;
+    justify-content: flex-start;
+    padding: 4px;
+}
+
+
+
+/*contact page styling*/
+
+
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+    flex-direction: column;
+    width: 280px;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.submit-button input {
+    padding: .2em .4em;
+    font-family: inherit;
+    font-size: .8em;
+    border-radius: 2px;
+    background-color: #A1A6B4;
+    border: 1px solid #191919;
+}
+
+/*submit button hover states --contact page*/
+.submit-button input:hover {
+    background-color: #f8f8f8;
+}
+
+.submit-button input:active {
+    background-color: #b4d2e7;
+}
+
+/*hover state and active animations*/
+a:link {
+    text-decoration: none;
+    color: var(--color3);
+}
+a:hover {
+    opacity: .7;
+}
+
+.find-out-more a:hover {
+    font-size: 1em;
+    transition: .4s;
+    text-shadow: 0.2em 1em #b4d2e7;
+}
+
+.find-out-more a:active {
+    font-size: 1em;
+    transition: 0.2s;
+    text-shadow: 0.2em 1em #b4d2e7;
+}
+
+a:active {
+    text-decoration: none;
+    font-style: italic;
+    opacity: .7;
+    transition: 0.4s
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--color3);
+}
+
+/*Animations*/
+
+.education i {
+    animation: fade-in 1.5s ease forwards 1s;
+    opacity: 0;
+}
+
+.interests i {
+    animation: fade-in 1.5s ease forwards 2s;
+    opacity: 0;
+}
+
+.skills i {
+    animation: fade-in 1.5s ease forwards 3s;
+    opacity: 0;
+}
+
+.download-cv, .jbimage {
+    animation: fade-in 2s linear forwards;
+    opacity: 0;
+}
+
+.jbimg {
+    padding-bottom: 4em;
+}
+
+.text--main h1 {
+    animation-name: float-in;
+    transform: translateY(1rem);
+    animation-delay: .5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: 1s;
+    opacity: 0;
+    color: rgba(var(--color5), 0.9);
+}
+
+.find-out-more a {
+    font-size: 1em;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-delay: 8s;
+    animation-duration: 1.5s;
+    transition: 2s;
+    animation-fill-mode: forwards;
+}
+
+.main--contact, .main--about, .main--projects, .main--blog {
+    animation-name: fade-in;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    transition: 1;
+    color: rgba(var(--color5), 0.9);
+}
+
+.text--main p {
+    animation-name: fade-in;
+    animation-delay: 2s;
+    animation-duration: 1.5s;
+    transition: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.footer--main {
+    position: fixed;
+    bottom: 0;
+    animation-name: float-in;
+    animation-delay: 6.6s;
+    animation-duration: 1s;
+    transform: translateY(.5rem);
+    transition: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 1em;
+    width: 100%;
+}
+
+.navigation--main {
+    animation-name: float-in;
+    animation-delay: 7.5s;
+    animation-duration: 1s;
+    transform: translateY(-.5rem);
+    transition: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    flex-grow: 1;
+    top: 0;
+    width: 100vw;
+    height: 8vh;
+    background: rgba(var(--color5), 0.9);
+    padding: 5px;
+}
+
+/*keyframes for animations*/
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        color: rgba(var(--color5), 0.9);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes float-in {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0%;
+    }
+
+90% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+/*typewriter animation, learned using youtube resource in references*/
+@keyframes blinking {
+   to {
+        background: transparent;
+    }
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+.typing-text--main {
+    font-family: 'Archivo', monospace;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;    
+}
+
+.typing-text--main::before,
+.typing-text--main::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.typing-text--main::before {
+    background: #191919;
+    animation: typewriter 2s steps(32) 4s forwards;
+}
+
+.typing-text--main::after {
+    width: 0.125em;
+    
+    animation: appear 3.5s ease, typewriter 2s steps(32) 4s forwards, blinking 500ms steps(32) infinite;
+    background: #f8f8f8;
+}
+
+/*media query for different devices*/
+@media screen and (min-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #header {
+        z-index: 0;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        bottom: 0;
+        position: fixed;
+    }
+
+    .footer--main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        position: fixed;
+        bottom: 0;
+    }
+    
+    .where {
+        font-size: 1.2em;
+    }
+    
+    .social-media {
+        font-size: 1.8em;
+    }
+    
+    .copyright {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+
+    .jbimage {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        opacity: .9;
+        margin: 3em;
+        width: 350px;
+        height: 510px;
+        border-radius: 4px;
+        position: fixed;
+        top: 10%;
+        left: calc(50% + 2em);
+    }
+
+    .download-cv {
+        position: fixed;
+        top: calc(10% + 510px + 5em);
+        left: calc(50% + 175px);
+    }
+
+    .main--about, .main--projects, .main--contact {
+        padding: 0;   
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+    }
+
+    .main--projects li:nth-of-type(5) {
+        padding-bottom: 4em;
+    }
+
+    .text--projects {
+        width: 60%;
+    }
+
+    .main--about h2, .main--projects h2 {
+        font-size: 36px;
+        line-height: 52px;
+        padding-bottom:100px;
+        margin-top: 100px;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .education, .skills  {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .about {
+        padding-top: 1em;
+    }
+
+    .text--about h1 {
+        font-size: 48px;
+        line-height: 52px;
+        padding-bottom: 40px;
+        margin-top: 70px; 
+        padding: 2em 0;
+        padding-bottom:100px;
+        height: 100px;
+        margin-bottom: 40px;
+        
+    }
+
+    .skills--about {
+        padding-bottom: 10em;
+    }
+
+    .main--about p {
+        position: static;
+        width: 400px;
+        padding: 0px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .main--projects p {
+        width: auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .main--about, .main--contact, .main--projects {
+        justify-content: center;
+    }
+
+    .text--projects {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+    }
+
+    .blogs--projects ul {
+        display: flex;
+    }
+
+    .blogs--projects p {
+        height: 250px;
+        align-items: center;
+        padding-bottom: 8%;
+        overflow: hidden;
+    }
+    .blogs--projects img, .main--blog img {
+        width: 250px;
+        height: 250px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .main--blog img {
+        float: left;
+    }
+
+    .main--blog {
+        display: flex;
+        padding-top: 100px;
+        margin: auto;
+        margin-bottom: 70px;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .main--blog h2 {
+        font-size: 48px;
+        line-height: 52px;
+        padding-bottom:100px;
+        margin-top: 0px;
+        height: 100px;
+        margin-bottom: 40px;
+    }
+
+    .published-date--blog {
+        height: 300px;
+        padding: 4% 2% 4% 4%;
+        margin-bottom: 50px;
+    }
+    
+    .find-out-more {
+        left: 55vw;
+        top: 70%;
+    }
+
+    h3 {
+        padding: .8em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .main--about p{
+    width: 582px;
+    }
+
+    .blogs--projects ul {
+        display: flex;
+    }
+}
