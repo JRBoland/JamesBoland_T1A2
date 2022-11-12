@@ -2,7 +2,7 @@
 
 ### [See the live version](https://dotslashjb.netlify.app)
 
-### [See the repo](https://github.com/JRBoland/portfolio)
+### [See the repo](https://github.com/JRBoland/JamesBoland_T1A2)
 
 ### [See the presentation video](https://youtu.be/__ktkdw7_tI)
 
