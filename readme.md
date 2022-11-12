@@ -14,6 +14,8 @@ Purpose of this site is to be able to introduce myself and showcase my skills an
 
 Working as a modern 'digital business card' or much like a digital CV, an online portfolio website allows people to be familiar with the work that I do, and have options to contact me (with the added benefit of seeing my previous work) for the purpose of being hired for new work.
 
+The site will also show my UX/UI and design skills through the presentation of the website itself.
+
 ## Functionality
 
 On initially loading the website, the main/index page has animations to capture the attention of its users.
@@ -45,7 +47,7 @@ The website has been designed utilising flexbox and ```media queries``` to ensur
 - **Blog posts**
     - The blog posts include a blog post image, date published, icons, and navigation links between the different blog post pages and the projects page
 
-    ![Blog navigation](./readme-images/blog_navigation.png)
+    ![Blog navigation](./docs/blog_navigation.png)
 
 The first and last blog posts have different navigation link options depending on which post you are on. The first post does not have the option to view the previous post, and the last post does not have the option to view the next post.
 
@@ -56,7 +58,7 @@ The header section contains:
 - An icon which acts as a home directory navigation. Clicking this icon will lead you back to the same page that you are greeted with when initially loading the site, animations and all.
 - A 'current place' indicator under the icon, denoted by a forward slash (/) and then the current page. eg. /home on index.html. The purpose of this is to mimic a directory, eg. ./JB/home or ./JB/about on the about page.
 
-   ![Header view](./readme-images/header_view.png)
+   ![Header view](./docs/header_view.png)
 
 The footer section contains:
 - Quick contact links (call, email)
@@ -65,12 +67,14 @@ The footer section contains:
 
 The footer is styled differently for mobile view vs desktop & tablet view.
 
-![Footer view](./readme-images/footer_view.png)
-![Footer view mobile](./readme-images/footer_view_mobile.png)
+![Footer view](./docs/footer_view.png)
+![Footer view mobile](./docs/footer_view_mobile.png)
 
 ## Target audience
 
 The target audience is anyone that I wish to work with, or that may wish to work with me. It is intended to be for potential employers, or clients. 
+
+It is to engage a fellow web developer or IT professional for the purpose of employment.
 
 It is also intended to help in networking, as it is greatly beneficial to have an online website or portfolio to show to other developers.
 
@@ -86,35 +90,35 @@ It is also intended to help in networking, as it is greatly beneficial to have a
 
 ## Screenshots
 ### Desktop View
-![Desktop view](./readme-images/desktop_view_screenshot.png)
+![Desktop view](./docs/desktop_view_screenshot.png)
 
 ### Tablet view
-![Tablet view](./readme-images/tablet_view_screenshot.png)
+![Tablet view](./docs/tablet_view_screenshot.png)
 
 ### Mobile view
-![Mobile view top](./readme-images/mobile_view_screenshot_1.png)
-![Mobile view bottom](./readme-images/mobile_view_screenshot_2.png)
+![Mobile view top](./docs/mobile_view_screenshot_1.png)
+![Mobile view bottom](../docs/mobile_view_screenshot_2.png)
 - *Showing both the top and the bottom of the about page.*
 
 
 ## Sitemap
-![Sitemap](./readme-images/sitemap.png)
+![Sitemap](./docs/sitemap.png)
 
 ## Desktop view mockups
-![Desktop view](./readme-images/desktop_view.png)
-![Desktop view blogs](./readme-images/desktop_view_blogs.png)
+![Desktop view](./docs/desktop_view.png)
+![Desktop view blogs](./docs/desktop_view_blogs.png)
 
 ## Tablet view mockups
-![Tablet view](./readme-images/tablet_view.png)
-![Tablet view blogs](./readme-images/tablet_view_blogs.png)
+![Tablet view](./docs/tablet_view.png)
+![Tablet view blogs](./docs/tablet_view_blogs.png)
 
 - *Note the image on the about page is fixed and will sit in place whilst scrolling on tablet and desktop view.*
 
 
 
 ## Mobile view mockups
-![Mobile view](./readme-images/mobile_view.png)
-![Mobile view blogs](./readme-images/mobile_view_blogs.png)
+![Mobile view](./docs/mobile_view.png)
+![Mobile view blogs](./docs/mobile_view_blogs.png)
 
 
 ### References
